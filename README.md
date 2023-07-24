@@ -64,6 +64,15 @@ In the following image we can understand the values of the temperature that is b
 Ultimately, it's feasible to compare the feature importance across different batches, allowing us to ascertain if any particular factor on particular bacth had a greater influence on leading to downtime. By doing so, we can focus our attention on that specific batch to uncover potential causes and implement necessary corrections.
 
 
+## Conclusion
+TBD...
+
+## Link to Notebook
+In order to view the notebook with plotly rendered graphs, please visit the following link:
+[Explaning_Downtime_With_Machine_Learning.ipynb](https://nbviewer.org/github/skswar/Explainable_ML_for_Production_Downtime_Shap/blob/main/python_script/Explaning_Downtime_With_Machine_Learning.ipynb)
+
+
+
 
 
 
