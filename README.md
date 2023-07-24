@@ -65,7 +65,11 @@ Ultimately, it's feasible to compare the feature importance across different bat
 
 
 ## Conclusion
-TBD...
+In summary, the primary objective of this project was to elucidate the reasons leading to machine downtime. We sought to determine if the activities of the preceding 30 minutes could shed light on the current machine opearating state. Furthermore, the aim was to identify the most influential factors driving this prediction. Tree-based algorithms have recently demonstrated exceptional performance in many machine learning challenges, and thus employing one in this project was deemed worthwhile. It was known that with help of tree ased models feature importance can be derived which will further help towards the project goal.
+
+Using a Catboost Tree Based model, it was possible to calculate feature importance, which furthered our goal of identifying key contributors to downtime prediction. The utilization of SHAP values was instrumental in drilling down to individual feature values, helping us to better understand their contribution to downtime.
+
+This process eabled to gain a baseline understanding of the production line dynamics, and identify parameter ranges to maintain during the process for maximum efficiency. Some of the insights derived also proved valuable for deeper analysis and subsequent corrective action planning.
 
 ## Link to Notebook
 In order to view the notebook with plotly rendered graphs, please visit the following link:
