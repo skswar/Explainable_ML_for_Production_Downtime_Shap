@@ -71,6 +71,8 @@ Using a Catboost Tree Based model, it was possible to calculate feature importan
 
 This process eabled to gain a baseline understanding of the production line dynamics, and identify parameter ranges to maintain during the process for maximum efficiency. Some of the insights derived also proved valuable for deeper analysis and subsequent corrective action planning.
 
+If there are any suggestions/advise or you are simply interested in a discussion regarding this project or any other Data Science related concepts, please feel free to contact me through [Linked-In](http://linkedin.com/in/sayankrswar) or shoot an [email](mailto:sayankrswar@hotmail.com). I Thank You for having your patience in reading the entire article.
+
 ## Link to Notebook
 In order to view the notebook with plotly rendered graphs, please visit the following link:
 [Explaning_Downtime_With_Machine_Learning.ipynb](https://nbviewer.org/github/skswar/Explainable_ML_for_Production_Downtime_Shap/blob/main/python_script/Explaning_Downtime_With_Machine_Learning.ipynb)
