@@ -28,6 +28,7 @@ Prior training, the model was able to predict Downtime with 98% accurancy. This 
 <img src="https://github.com/skswar/Explainable_ML_for_Production_Downtime_Shap/blob/main/img/conf_mat.png" width="40%"/>
 </p>
 
+## Explaning Why with SHAP
 The next step was to discern the features that held the most significance for our model. The following feature importance graph (calculated by taking mean of the SHAP values) revealed that variables such as the variance in FeedSpeed over the last 30 minutes, the humidity from the previous hour, and the variance in the number of rejected cards in the past 30 minutes, served as the pivotal factors driving the model's predictions. However, understanding the specific values of these features that lead to a certain prediction necessitated further investigation. This was where SHAP (SHapley Additive exPlanations) became instrumental.
 <p align="center">
 <img src="https://github.com/skswar/Explainable_ML_for_Production_Downtime_Shap/blob/main/img/overallfi.png" width="60%"/>
